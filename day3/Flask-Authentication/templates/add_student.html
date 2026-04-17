@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Add Student | ParvaM Auth{% endblock %}
+{% block content %}
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Add New Student</h2>
+    <p class="text-muted">Register a new student</p>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="bg-white rounded-4 shadow-sm p-4">
+        <form method="post">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="{{ form.name }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" value="{{ form.email }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="phone" value="{{ form.phone }}" required>
+          </div>
+          <div class="mb-3">
+            <label for="course" class="form-label">Course</label>
+            <input type="text" class="form-control" id="course" name="course" value="{{ form.course }}" required>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-success">Add Student</button>
+            <a href="{{ url_for('students') }}" class="btn btn-outline-secondary">Cancel</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}
