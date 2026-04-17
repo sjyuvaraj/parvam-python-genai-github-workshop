@@ -1,0 +1,36 @@
+prompt refers to asking question or interacting with AI tools or chatbot like ChatGPT
+
+prompt engineering is an art of asking question to any AI chatbot to get best effective result from it.
+
+Types of Prompt Engineering:
+1) Zero Shot PE
+Prompt doesn't contain any examples or context
+
+Ex: Write a python program to find the palindrome numbers.
+
+2) Few Shot PE
+Prompt contains some reference example or some context
+
+Ex: Write a python program to find the palindrome numbers. For Example: 123 - 321 is an example for palindrome, 1234 - 4123 is not a palindrome
+
+3) Chain of Thought (CoT)
+Verify the answer with step by step solving of the problem (commonly used for mathematical problems)
+
+Ex: 
+
+4) Role or Persona Prompting
+First we will inform the AI as it some domain expert, based on its experience prompt will be asked.
+
+Ex: You're CV Expert, I need proper CV format to crack the Interview
+You're a Python Expert, I need to prepare for Python Interview, Help me with commonly asked Interview Questions
+
+5) System or Instruction Prompting:
+Instructions will be given before the actual prompt
+
+Ex: [System: Give 1 sentence answer for the questions]
+[User: What is the Capital City of Karnataka?]
+
+6) Negative Prompting:
+To get the result by eleminating the respective words
+
+Ex: Descibe about Python without using Programming, Language, Scripting, AI & ML, Data Science

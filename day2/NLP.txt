@@ -1,0 +1,55 @@
+NLP - Natural Language Processing
+
+It is used to understand or translate the prompt or text given by user to machine.
+
+It acts like a bridge b/w user & computer 
+
+It can understand the text & speech from user to be converted to provide the answer.
+
+Core Levels of NLP:
+1) Tokenization:
+Breaking of each words given in the prompt
+
+Ex: "I like to learn Coding using AI"
+token - 7
+
+"I don't like to eat Bitter Guard"
+token - 8 (Because don't - do + not)
+lly, I'm - I + am
+
+2) Parts-of-Speech Tagging: (POS Tagging)
+Classify the nouns, pronouns, verbs & adjectives
+
+Ex: I like to train students
+"like" - verb
+"train" - verb
+"students" - noun
+
+3) NER (Named Entity Relationship) **:
+It is going to find the names, dates, relationship from the given prompt
+
+Ex: Akshay is travelling to Tirupati on Saturday via Train and returning back on Sunday via Bus.
+
+4) Sentiment Analysis:
+It is going to find the emotion and tone of the sentence. (Positive, Negative & Neutral)
+
+Ex: 
+1) I liked the movie screenplay but CGI was below par.
+2) I loved the product, display is amazing but battery is very poor and it gives 8 hours of SOT
+3) Highly Recommended Product, Battery runs too long for 5 Hours (Sarcasm)
+
+5) Language Modelling:
+Mainly used for Tranlations and prediction of words 
+
+Ex: Google Translate, Duolingo, Gmail recommendation, Auto-Correct Spelling
+
+6) Semantic Parsing:
+Undersands the meaning & relationship of the sentence.
+
+Ex: Akshay is explaning about NLP to AIML batch students in CEC College for AI Workshop
+
+Akshay - Sender
+AIML Students - Reciever
+NLP - Topic
+Place - CEC
+Program - AI Workshop

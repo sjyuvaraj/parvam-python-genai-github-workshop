@@ -1,0 +1,17 @@
+Flask - Python based lightweight framework
+app.py - backend file
+templates folder contains all HTML Frontend files
+
+http://127.0.0.1:5000
+
+http: Hyper Text Transfer Protocol
+
+It handles Client's Request & gives back the Response from the Server
+
+127.0.0.1 - Localhost (Local Machine)
+
+5000 - Default Port Number used by flask
+
+Route - Used for Navigating between different pages
+
+Base Route - Empty link
